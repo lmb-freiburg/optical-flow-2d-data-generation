@@ -1,0 +1,4 @@
+3c3
+< CXXFLAGS= $(AGGCXXFLAGS) -I../include -L./
+---
+> CXXFLAGS= $(AGGCXXFLAGS) -fPIC -I../include -L./

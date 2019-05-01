@@ -1,0 +1,32 @@
+layer {
+  name: "my-data-generator"
+  type: "DataGeneration"
+
+  top: "first-image"
+  top: "second-image"
+  top: "optical-flow-groundtruth"
+
+  data_param {
+    batch_size: 8
+    ## The data generator will try to keep a pool of pre-generated data, in
+    ## order to be able to fulfill new data minibatch requests instantly.
+    prefetch: 40
+  }
+
+  data_generation_param {
+    ## "Mode" is a choice from a hardcoded set of data characteristics for the
+    ## data generation layer. It's easy to define your own additional options.
+    ## See "src/caffe/DataGenerator.cpp", lines 1367 et seqq.
+    mode: 7
+    ## The texture database is a text file containing one (texture) image per
+    ## line. There is no distinction between background and object textures,
+    ## but this would be a simple extension.
+    texture_dbases: "/misc/lmbraid18/mayern/CLUSTER/resources/random-textures-1000/database.txt"
+    ## Number of worker threads for data generation
+    first_level_threads: 8
+    ## Each first-level worker thread employs this many second-level threads
+    ## the generate individual objects for its current data sample.
+    second_level_threads: 3
+  }
+}
+

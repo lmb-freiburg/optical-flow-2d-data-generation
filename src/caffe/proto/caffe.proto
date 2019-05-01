@@ -1,0 +1,13 @@
+
+message LayerParameter {
+  optional DataGenerationParameter data_generation_param = 9001;
+}
+
+message DataGenerationParameter {
+  required int32 mode                 = 9003 [default = 1];
+  repeated string texture_dbases      = 9004;
+  optional int32 first_level_threads  = 9005 [default = 16];
+  optional int32 second_level_threads = 9006 [default = 1];
+  optional bool use_antialiasing      = 9007 [default = true];
+}
+
