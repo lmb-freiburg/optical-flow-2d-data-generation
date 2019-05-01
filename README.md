@@ -21,7 +21,7 @@ Predefined options include various object shapes and motion types.
 Nikolaus Mayer (mayern@cs.uni-freiburg.de)
 
 # License
-This code is provided for research purposes only and without any warranty. Any commercial use is prohibited. If you use the dataset or parts of it in your research, you should cite the aforementioned paper: 
+This code is provided for research purposes only and without any warranty. Any commercial use is prohibited. If you use the code or parts of it in your research, you should cite the aforementioned paper: 
 ```
 @Article{MIFDB18,
   author       = "N. Mayer and E. Ilg and P. Fischer and C. Hazirbas and D. Cremers and A. Dosovitskiy and T. Brox",
