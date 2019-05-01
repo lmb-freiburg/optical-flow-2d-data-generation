@@ -10,12 +10,8 @@ Predefined options include various object shapes and motion types.
 Texture database must be provided by user.
 
 
-![example1-a](img/image_00002.png)
-![example1-b](img/image_00003.png)
-![example1-f](img/flow2.png)
-![example2-a](img/image_00006.png)
-![example2-b](img/image_00007.png)
-![example2-f](img/flow6.png)
+<img src='https://raw.githubusercontent.com/lmb-freiburg/optical-flow-2d-data-generation/master/img/image_00002.png' width='30%' alt=''/> <img src='https://raw.githubusercontent.com/lmb-freiburg/optical-flow-2d-data-generation/master/img/image_00003.png' width='30%' alt=''/> <img src='https://raw.githubusercontent.com/lmb-freiburg/optical-flow-2d-data-generation/master/img/flow2.png' width='30%' alt=''/> 
+<img src='https://raw.githubusercontent.com/lmb-freiburg/optical-flow-2d-data-generation/master/img/image_00006.png' width='30%' alt=''/> <img src='https://raw.githubusercontent.com/lmb-freiburg/optical-flow-2d-data-generation/master/img/image_00007.png' width='30%' alt=''/> <img src='https://raw.githubusercontent.com/lmb-freiburg/optical-flow-2d-data-generation/master/img/flow6.png' width='30%' alt=''/> 
 
 
 
