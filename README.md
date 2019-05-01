@@ -1,11 +1,13 @@
 
 # On-the-fly training data generation
 This repository contains a data-generation layer for Caffe (v1).
-The layer takes a texture database, and produces opticalflow training data (images and groundtruth) live at training time.
+The layer takes a texture database, and produces optical flow training data (images and groundtruth) live at training time.
 It was used in the IJCV 2018 paper "What Makes Good Synthetic Training Data for Learning Disparity and Optical Flow Estimation?" (http://dx.doi.org/10.1007/s11263-018-1082-6), where it proved to produce better data (benchmarked on Sintel) than the original FlyingChairs dataset.
 You could (if you were fond of terrible puns) call this one **On-the-Fly-ingChairs**.
 
 Predefined options include various object shapes and motion types.
+
+Texture database must be provided by user.
 
 
 ![example1-a](img/image_00002.png)
