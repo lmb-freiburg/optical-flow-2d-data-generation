@@ -35,7 +35,7 @@ This code is provided for research purposes only and without any warranty. Any c
 }
 ```
 
-The codebase utilizes the wonderful libraries [CImg](http://cimg.eu/) (download it and put `CImg.h` into `include/thirdparty`) and [Anti-Grain Geometry](https://github.com/tomhughes/agg).
+The codebase utilizes the wonderful libraries [CImg](http://cimg.eu/) (download it and put `CImg.h` into `include/thirdparty`) and [Anti-Grain Geometry](https://github.com/nikolausmayer/AntiGrainGeometry-v2.4).
 
 # Usage
 See `example/train.prototxt`. 
