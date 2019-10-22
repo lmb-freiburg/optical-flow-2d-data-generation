@@ -4,7 +4,7 @@
 ExternalProject_Add(
         AntiGrainGeometry
         PREFIX "${CMAKE_BINARY_DIR}/AntiGrainGeometry"
-        URL "http://www.antigrain.com/agg-2.4.tar.gz"
+        URL "https://github.com/nikolausmayer/AntiGrainGeometry-v2.4/blob/master/agg-2.4.tar.gz"
         URL_HASH "MD5=863d9992fd83c5d40fe1c011501ecf0e"
         # do not update
         UPDATE_COMMAND ""
